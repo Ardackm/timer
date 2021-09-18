@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1><span id="dakika">00</span>:<span id="saniye">00</span></h1>
+        <form>
+            <label>
+                minute
+                <input type="number" id="secilen-dk" min="0" max="59" value="00">
+            </label>
+            <label>
+                Second
+                <input type="number" id="secilen-sn" min="0" max="59" value="00">
+            </label>
+        </form>
+
+        <button id="baslat">Start</button>
+        <button id="sıfırla">Format</button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
